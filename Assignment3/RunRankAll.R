@@ -1,0 +1,5 @@
+source("RankAll.R")
+head(rankall("heart attack", 20), 10)
+rankall("heart attach", "best")
+tail(rankall("pneumonia", "worst"), 3)
+tail(rankall("heart failure"), 10)
